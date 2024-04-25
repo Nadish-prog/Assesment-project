@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.Navbar{
+height: 100%;
+    width: 20vw;
+background-color: #fffefe;
+    display: flex;
+    flex-direction: column;
+}
+.profile .Nav-profile{
+    height: 80px;
+    width: 80px;
+    background-color: #f1e1e1;
+    border-radius:35px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile >div{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+ .Navbar   .Nav-items{
+    background-color: rgba(230, 234, 232, 0.17);
+    height: 50px;
+  /*  padding-top: 13px;*/
+    align-items: center;
+       display: flex;
+    padding-left: 4vw;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Nav-items:hover{
+    background-color: rgba(238, 225, 241, 0.7);
+    cursor: pointer;
+}
+.Subjects{
+   margin-left: 35px;
+  margin-top: 20px;
+    color: black;
+}
